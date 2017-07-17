@@ -15,6 +15,9 @@ using ESBKUpDateClient.ESBKUpDateServer;
 
 namespace ESBKUpDateClient
 {
+    /// <summary>
+    /// 更新客户端的工具窗体
+    /// </summary>
     public partial class Form1 : Form
     {
         ESBKUpDateService mESBKUpDateService=new ESBKUpDateServiceClient();
@@ -28,6 +31,9 @@ namespace ESBKUpDateClient
         int successNum = 0;
         int faieldNum = 0;
 
+        /// <summary>
+        /// 构造函数
+        /// </summary>
         public Form1()
         {
             InitializeComponent();
