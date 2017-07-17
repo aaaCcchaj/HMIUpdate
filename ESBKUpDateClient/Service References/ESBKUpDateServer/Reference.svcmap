@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3cd38adf-2737-46b1-9a39-ec93955259a2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://192.168.7.5:8733/calculatorservice/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="5fa9b2a4-478a-47b3-9dce-8f85b09b4d45" SourceId="1" SourceUrl="http://192.168.7.5:8733/calculatorservice/mex" />
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="cc16f842-5db3-4eba-8a32-8750b7d80fc4" SourceId="1" SourceUrl="http://192.168.7.5:8733/calculatorservice/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="b9b9dee0-0bd0-46d2-8c49-b7df02819359" SourceId="1" SourceUrl="http://192.168.7.5:8733/calculatorservice/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="5be970ad-cfd8-43dc-97b1-95b61e27ae38" SourceId="1" SourceUrl="http://192.168.7.5:8733/calculatorservice/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="31070384-2065-4d99-a56c-c2bf2cb5ca1b" SourceId="1" SourceUrl="http://192.168.7.5:8733/calculatorservice/mex" />
+    <MetadataFile FileName="Message.xsd" MetadataType="Schema" ID="119af768-6289-46b3-b637-fefd28f04790" SourceId="1" SourceUrl="http://192.168.7.5:8733/calculatorservice/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

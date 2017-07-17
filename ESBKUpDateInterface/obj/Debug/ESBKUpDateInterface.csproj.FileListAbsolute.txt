@@ -1,0 +1,4 @@
+C:\Users\heming\Desktop\S101\HMIUpDate\BIN\ESBKUpDateInterface.dll
+C:\Users\heming\Desktop\S101\HMIUpDate\BIN\ESBKUpDateInterface.pdb
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateInterface\obj\Debug\ESBKUpDateInterface.dll
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateInterface\obj\Debug\ESBKUpDateInterface.pdb

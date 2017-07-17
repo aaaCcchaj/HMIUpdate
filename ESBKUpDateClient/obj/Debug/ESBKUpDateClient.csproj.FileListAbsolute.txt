@@ -1,0 +1,14 @@
+C:\Users\heming\Desktop\S101\HMIUpDate\BIN\Client\ESBKUpDateClient.exe.config
+C:\Users\heming\Desktop\S101\HMIUpDate\BIN\Client\ESBKUpDateClient.exe
+C:\Users\heming\Desktop\S101\HMIUpDate\BIN\Client\ESBKUpDateClient.pdb
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateClient\obj\Debug\ESBKUpDateClient.Form1.resources
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateClient\obj\Debug\ESBKUpDateClient.Properties.Resources.resources
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateClient\obj\Debug\ESBKUpDateClient.csproj.GenerateResource.Cache
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateClient\obj\Debug\ESBKUpDateClient.exe
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateClient\obj\Debug\ESBKUpDateClient.pdb
+E:\ESBKAll\ESBKDEV\trunk\apps\HMIUpDate\BIN\Client\ESBKUpDateClient.exe.config
+E:\ESBKAll\ESBKDEV\trunk\apps\HMIUpDate\HMIUpDate\ESBKUpDateClient\obj\Debug\ESBKUpDateClient.exe
+E:\ESBKAll\ESBKDEV\trunk\apps\HMIUpDate\HMIUpDate\ESBKUpDateClient\obj\Debug\ESBKUpDateClient.pdb
+C:\Users\zhangniansheng\Desktop\HMIUpDate\HMIUpDate\BIN\Client\ESBKUpDateClient.exe.config
+C:\Users\zhangniansheng\Desktop\HMIUpDate\HMIUpDate\HMIUpDate\ESBKUpDateClient\obj\Debug\ESBKUpDateClient.exe
+C:\Users\zhangniansheng\Desktop\HMIUpDate\HMIUpDate\HMIUpDate\ESBKUpDateClient\obj\Debug\ESBKUpDateClient.pdb

@@ -1,0 +1,5 @@
+C:\Users\heming\Desktop\S101\HMIUpDate\BIN\UpDateServer\ESBKUpDateLib.dll
+C:\Users\heming\Desktop\S101\HMIUpDate\BIN\UpDateServer\ESBKUpDateLib.pdb
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateLib\obj\Debug\ESBKUpDateLib.csprojResolveAssemblyReference.cache
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateLib\obj\Debug\ESBKUpDateLib.dll
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateLib\obj\Debug\ESBKUpDateLib.pdb

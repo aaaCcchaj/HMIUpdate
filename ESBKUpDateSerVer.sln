@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESBKUpDateServer", "ESBKUpDateServer\ESBKUpDateServer.csproj", "{17E7DB86-F776-4EE0-8044-86990D6A6D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESBKUpDateLib", "ESBKUpDateLib\ESBKUpDateLib.csproj", "{49E2B36B-7919-4B0A-82C7-B6B9F172BEF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESBKUpDateInterface", "ESBKUpDateInterface\ESBKUpDateInterface.csproj", "{D170E1A5-991A-49A4-82B1-F4BB70626BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESBKUpDateClient", "ESBKUpDateClient\ESBKUpDateClient.csproj", "{36899844-7C68-4129-BCA8-928B42826533}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17E7DB86-F776-4EE0-8044-86990D6A6D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E7DB86-F776-4EE0-8044-86990D6A6D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E7DB86-F776-4EE0-8044-86990D6A6D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E7DB86-F776-4EE0-8044-86990D6A6D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E2B36B-7919-4B0A-82C7-B6B9F172BEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E2B36B-7919-4B0A-82C7-B6B9F172BEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E2B36B-7919-4B0A-82C7-B6B9F172BEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E2B36B-7919-4B0A-82C7-B6B9F172BEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D170E1A5-991A-49A4-82B1-F4BB70626BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D170E1A5-991A-49A4-82B1-F4BB70626BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D170E1A5-991A-49A4-82B1-F4BB70626BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D170E1A5-991A-49A4-82B1-F4BB70626BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36899844-7C68-4129-BCA8-928B42826533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36899844-7C68-4129-BCA8-928B42826533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36899844-7C68-4129-BCA8-928B42826533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36899844-7C68-4129-BCA8-928B42826533}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

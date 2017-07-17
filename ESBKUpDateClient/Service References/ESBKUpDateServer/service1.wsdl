@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="http://www.artech.com/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ESBKUpDateService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_ESBKUpDateService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <msf:Streamed xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy" />
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:import namespace="http://www.artech.com/" location="" />
+  <wsdl:types />
+  <wsdl:binding name="NetTcpBinding_ESBKUpDateService" type="i0:ESBKUpDateService">
+    <wsp:PolicyReference URI="#NetTcpBinding_ESBKUpDateService_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetVersion">
+      <soap12:operation soapAction="http://www.artech.com/ESBKUpDateService/GetVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpDateFileNames">
+      <soap12:operation soapAction="http://www.artech.com/ESBKUpDateService/GetUpDateFileNames" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpDateDirectorys">
+      <soap12:operation soapAction="http://www.artech.com/ESBKUpDateService/GetUpDateDirectorys" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileBinary">
+      <soap12:operation soapAction="http://www.artech.com/ESBKUpDateService/GetFileBinary" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStream">
+      <soap12:operation soapAction="http://www.artech.com/ESBKUpDateService/GetFileStream" style="document" />
+      <wsdl:input name="DownFile">
+        <soap12:header message="i0:DownFile_Headers" part="FileName" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DownFileResult">
+        <soap12:header message="i0:DownFileResult_Headers" part="FileSize" use="literal" />
+        <soap12:header message="i0:DownFileResult_Headers" part="IsSuccess" use="literal" />
+        <soap12:header message="i0:DownFileResult_Headers" part="Message" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ESBKUpDateService">
+    <wsdl:port name="NetTcpBinding_ESBKUpDateService" binding="tns:NetTcpBinding_ESBKUpDateService">
+      <soap12:address location="net.tcp://localhost:8734/calculatorservice/" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:8734/calculatorservice/</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>localhost</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

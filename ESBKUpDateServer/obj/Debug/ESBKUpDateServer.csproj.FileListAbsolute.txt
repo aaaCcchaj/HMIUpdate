@@ -1,0 +1,8 @@
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateServer\bin\Debug\ESBKUpDateServer.exe.config
+C:\Users\heming\Desktop\S101\HMIUpDate\BIN\ESBKUpDateServer.exe.config
+C:\Users\heming\Desktop\S101\HMIUpDate\BIN\UpDateServer\ESBKUpDateServer.exe.config
+C:\Users\heming\Desktop\S101\HMIUpDate\BIN\UpDateServer\ESBKUpDateServer.exe
+C:\Users\heming\Desktop\S101\HMIUpDate\BIN\UpDateServer\ESBKUpDateServer.pdb
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateServer\obj\Debug\ESBKUpDateServer.csprojResolveAssemblyReference.cache
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateServer\obj\Debug\ESBKUpDateServer.exe
+C:\Users\heming\Desktop\S101\HMIUpDate\HMIUpDate\ESBKUpDateServer\obj\Debug\ESBKUpDateServer.pdb

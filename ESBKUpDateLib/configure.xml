@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <port>55555</port>
+  <version>1.0.0.0</version>
+  <objectpath>
+    <HMI>C:\\ESBKUPDATE\\HMI</HMI>
+  </objectpath>
+</configuration>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.artech.com/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.artech.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.artech.com/Imports">
+      <xsd:import namespace="http://www.artech.com/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import namespace="http://schemas.microsoft.com/Message" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ESBKUpDateService_GetVersion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVersion" />
+  </wsdl:message>
+  <wsdl:message name="ESBKUpDateService_GetVersion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ESBKUpDateService_GetUpDateFileNames_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUpDateFileNames" />
+  </wsdl:message>
+  <wsdl:message name="ESBKUpDateService_GetUpDateFileNames_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUpDateFileNamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ESBKUpDateService_GetUpDateDirectorys_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUpDateDirectorys" />
+  </wsdl:message>
+  <wsdl:message name="ESBKUpDateService_GetUpDateDirectorys_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUpDateDirectorysResponse" />
+  </wsdl:message>
+  <wsdl:message name="ESBKUpDateService_GetFileBinary_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFileBinary" />
+  </wsdl:message>
+  <wsdl:message name="ESBKUpDateService_GetFileBinary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFileBinaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownFile">
+    <wsdl:part name="parameters" element="tns:DownFile" />
+  </wsdl:message>
+  <wsdl:message name="DownFile_Headers">
+    <wsdl:part name="FileName" element="tns:FileName" />
+  </wsdl:message>
+  <wsdl:message name="DownFileResult">
+    <wsdl:part name="parameters" element="tns:DownFileResult" />
+  </wsdl:message>
+  <wsdl:message name="DownFileResult_Headers">
+    <wsdl:part name="FileSize" element="tns:FileSize" />
+    <wsdl:part name="IsSuccess" element="tns:IsSuccess" />
+    <wsdl:part name="Message" element="tns:Message" />
+  </wsdl:message>
+  <wsdl:portType name="ESBKUpDateService">
+    <wsdl:operation name="GetVersion">
+      <wsdl:input wsaw:Action="http://www.artech.com/ESBKUpDateService/GetVersion" message="tns:ESBKUpDateService_GetVersion_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/ESBKUpDateService/GetVersionResponse" message="tns:ESBKUpDateService_GetVersion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpDateFileNames">
+      <wsdl:input wsaw:Action="http://www.artech.com/ESBKUpDateService/GetUpDateFileNames" message="tns:ESBKUpDateService_GetUpDateFileNames_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/ESBKUpDateService/GetUpDateFileNamesResponse" message="tns:ESBKUpDateService_GetUpDateFileNames_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpDateDirectorys">
+      <wsdl:input wsaw:Action="http://www.artech.com/ESBKUpDateService/GetUpDateDirectorys" message="tns:ESBKUpDateService_GetUpDateDirectorys_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/ESBKUpDateService/GetUpDateDirectorysResponse" message="tns:ESBKUpDateService_GetUpDateDirectorys_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileBinary">
+      <wsdl:input wsaw:Action="http://www.artech.com/ESBKUpDateService/GetFileBinary" message="tns:ESBKUpDateService_GetFileBinary_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.artech.com/ESBKUpDateService/GetFileBinaryResponse" message="tns:ESBKUpDateService_GetFileBinary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStream">
+      <wsdl:input wsaw:Action="http://www.artech.com/ESBKUpDateService/GetFileStream" name="DownFile" message="tns:DownFile" />
+      <wsdl:output wsaw:Action="http://www.artech.com/ESBKUpDateService/GetFileStreamResponse" name="DownFileResult" message="tns:DownFileResult" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
