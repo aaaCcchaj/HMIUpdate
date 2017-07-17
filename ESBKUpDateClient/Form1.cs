@@ -33,6 +33,7 @@ namespace ESBKUpDateClient
             InitializeComponent();
             GetSelfVersion();
             Action action = UpDateProject;
+
             action.BeginInvoke(null, null);
         }
 
